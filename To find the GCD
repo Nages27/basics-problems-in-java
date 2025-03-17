@@ -1,0 +1,21 @@
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        int a=10,b=15;
+        
+        //Formula//.......
+        
+        while(b!=0){
+            int temp=b;
+            
+             b=b%a;
+             a=temp;
+        }
+        
+        System.out.print(a);
+    }
+}
+
+output:
+
+5
